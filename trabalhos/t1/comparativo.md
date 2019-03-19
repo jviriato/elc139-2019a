@@ -18,6 +18,8 @@ Nome: José Victor Viriato
 | Tipo(s) de interconexão entre os núcleos/processadores    | FDR Infiniband Network|       Intel QuickPath          |
 | Desempenho Linpack                                        |   1,029.32 TFlop/s    |   45.9810 GFlop/s              |
 
+Para medir o desempenho do meu computador foi utilizado o LINPACK da Intel (https://intel.ly/2TL2bfz).
+
 ### Referências
 - Top500.org. *Lengau - PowerEdge C6320, Xeon E5-2690v3 12C 2.6GHz, Infiniband FDR*. http://bit.ly/2HB98Zk;
 - Lauren Hartzenberg. *Introducing Lengau: Africa's fastest super computer*. http://bit.ly/2XZaKBQ;
