@@ -15,8 +15,8 @@ Nome: José Victor Viriato
 | Fabricante e modelo do(s) processador(es)                 |Intel® Xeon™ E5-2690v3 12C 2.6GHz|Intel® Core™ i5-5200U|
 | Frequência do(s) processador(es)                          |     2.6 GHz           |  2.20 GHz       |
 | Memória total                                             |     175,232 GB        |  8 GB           |
-| Tipo(s) de interconexão entre os núcleos/processadores    | FDR Infiniband Network|                 |
-| Desempenho Linpack                                        |   1,029.32 TFlop/s    |                 |
+| Tipo(s) de interconexão entre os núcleos/processadores    | FDR Infiniband Network|       Intel QuickPath          |
+| Desempenho Linpack                                        |   1,029.32 TFlop/s    |   45.9810 GFlop/s              |
 
 ### Referências
 - Top500.org. *Lengau - PowerEdge C6320, Xeon E5-2690v3 12C 2.6GHz, Infiniband FDR*. http://bit.ly/2HB98Zk;
