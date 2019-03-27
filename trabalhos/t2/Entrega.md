@@ -115,3 +115,18 @@ O arquivo *pthreads_dotprod2.c* não utiliza de mutex no momento de inserção d
 O arquivo pode ser conferido em [openmp_pthreads_dotprod.c](openmp/openmp_pthreads_dotprod.c)
 
 **2. Avalie o desempenho do programa em OpenMP, usando os mesmos dados/argumentos do programa com threads POSIX.**
+
+| Tamanho do vetor (500 repetições) | Speed Up 2 (Pthread) | Speed Up 2 (OpenMP) | Speed Up 4 (Pthread) | Speed Up 4 (OpenMP) | Speed Up 8 (Pthread) | Speed Up 8 (OpenMP) |
+|-----------------------------------|----------------------|---------------------|----------------------|---------------------|----------------------|---------------------|
+| 2000000                           | ~1.6                 |                     | ~2                   |                     | ~2                   |                     |
+| 1000000                           | ~1.7                 |                     | ~2                   |                     | ~2                   |                     |
+| 10000                             | ~1.4                 |                     | ~1.86                |                     | ~1.9                 |                     |
+
+
+| Tamanho do vetor (1000 repetições) | Speed Up 2 (Pthread) | Speed Up 2 (OpenMP) | Speed Up 4 (Pthread) | Speed Up 4 (OpenMP) | Speed Up 8 (Pthread) | Speed Up 8 (OpenMP) |
+|------------------------------------|----------------------|---------------------|----------------------|---------------------|----------------------|---------------------|
+| 2000000                            | ~1.63                |                     | ~1.87                |                     | ~1.9                 |                     |
+| 1000000                            | ~1.65                |                     | ~2                   |                     | ~1.98                |                     |
+| 10000                              | ~1.35                |                     | ~2.2                 |                     | ~2.2                 |                     |
+
+
