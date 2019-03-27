@@ -89,15 +89,12 @@ Sim, a aceleração aumenta com até 4 threads, o que faz sentido, pois o proces
 
 Cada tabela é o resultado da média de 20 execuções na shell. 
 
-500 repetições
 | Tamanho do vetor (500 repetições) | 1 thread | 2 threads | 4 threads | 8 threads | Speedup 2 | Speedup 4 | Speedup 8 |
 |-----------------------------------|----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | 2000000                           | 3614534  | 2210936   | 1731452   | 1768344   | ~1.6      | ~2        | ~2        |
 | 1000000                           | 1804996  | 1058902   | 880400    | 874679    | ~1.7      | ~2        | ~2        |
 | 10000                             | 19419    | 13344     | 10417     | 9811      | ~1.4      | ~1.86     | ~1.9      |
 
-
-1000 repetições
 | Tamanho do vetor (1000 repetições) | 1 thread | 2 threads | 4 threads | 8 threads | Speedup 2 | Speedup 4 | Speedup 8 |
 |------------------------------------|----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | 2000000                            | 7185334  | 4382029   | 3840643   | 3759694   | ~1.63     | ~1.87     | ~1.9      |
@@ -118,3 +115,18 @@ O arquivo *pthreads_dotprod2.c* não utiliza de mutex no momento de inserção d
 O arquivo pode ser conferido em [openmp_pthreads_dotprod.c](openmp/openmp_pthreads_dotprod.c)
 
 **2. Avalie o desempenho do programa em OpenMP, usando os mesmos dados/argumentos do programa com threads POSIX.**
+
+| Tamanho do vetor (500 repetições) | Speed Up 2 (Pthread) | Speed Up 2 (OpenMP) | Speed Up 4 (Pthread) | Speed Up 4 (OpenMP) | Speed Up 8 (Pthread) | Speed Up 8 (OpenMP) |
+|-----------------------------------|----------------------|---------------------|----------------------|---------------------|----------------------|---------------------|
+| 2000000                           | ~1.6                 |                     | ~2                   |                     | ~2                   |                     |
+| 1000000                           | ~1.7                 |                     | ~2                   |                     | ~2                   |                     |
+| 10000                             | ~1.4                 |                     | ~1.86                |                     | ~1.9                 |                     |
+
+
+| Tamanho do vetor (1000 repetições) | Speed Up 2 (Pthread) | Speed Up 2 (OpenMP) | Speed Up 4 (Pthread) | Speed Up 4 (OpenMP) | Speed Up 8 (Pthread) | Speed Up 8 (OpenMP) |
+|------------------------------------|----------------------|---------------------|----------------------|---------------------|----------------------|---------------------|
+| 2000000                            | ~1.63                |                     | ~1.87                |                     | ~1.9                 |                     |
+| 1000000                            | ~1.65                |                     | ~2                   |                     | ~1.98                |                     |
+| 10000                              | ~1.35                |                     | ~2.2                 |                     | ~2.2                 |                     |
+
+
