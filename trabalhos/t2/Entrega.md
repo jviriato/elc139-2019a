@@ -118,9 +118,9 @@ O arquivo pode ser conferido em [openmp_pthreads_dotprod.c](openmp/openmp_pthrea
 
 | Tamanho do vetor (500 repetições) | Speed Up 2 (Pthread) | Speed Up 2 (OpenMP) | Speed Up 4 (Pthread) | Speed Up 4 (OpenMP) | Speed Up 8 (Pthread) | Speed Up 8 (OpenMP) |
 |-----------------------------------|----------------------|---------------------|----------------------|---------------------|----------------------|---------------------|
-| 2000000                           | ~1.6                 |                | ~2                   |                     | ~2                   |                     |
-| 1000000                           | ~1.7                 |                     | ~2                   |                     | ~2                   |                     |
-| 10000                             | ~1.4                 |                     | ~1.86                |                     | ~1.9                 |                     |
+| 2000000                           | ~1.6                 |  ~2.28              | ~2                   |  ~2.57                   | ~2                   |       ~2.65              |
+| 1000000                           | ~1.7                 |    ~2.33                 | ~2                   |  ~2.47                   | ~2                   |   ~2.50                  |
+| 10000                             | ~1.4                 |    ~2.39                 | ~1.86                |     ~2.56                | ~1.9                 |     ~2.66                |
 
 
 | Tamanho do vetor (1000 repetições) | Speed Up 2 (Pthread) | Speed Up 2 (OpenMP) | Speed Up 4 (Pthread) | Speed Up 4 (OpenMP) | Speed Up 8 (Pthread) | Speed Up 8 (OpenMP) |
