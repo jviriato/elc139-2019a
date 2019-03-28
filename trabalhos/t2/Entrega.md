@@ -130,3 +130,4 @@ O arquivo pode ser conferido em [openmp_pthreads_dotprod.c](openmp/openmp_pthrea
 | 10000                              | ~1.35                |   ~2.52                  | ~2.2                 |    ~2.66                 | ~2.2                 |  ~2.69                   |
 
 
+Como visto acima há uma boa diferença no Speed Up comparando com o OpenMP. Podemos ver, analisando o máximo e mínimo do OpenMP - 2.21 e 2.83 - que até o mínimo do OpenMp é superior a maioria dos Speed Up usando Pthread.
