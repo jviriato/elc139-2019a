@@ -70,8 +70,8 @@ class SharedArray
 class ArrayFiller
 {
  private:
-   static const int nThreads = 4;
-   static const int nTimes = 20;
+   static const int nThreads = 3;
+   static const int nTimes = 60;
    SharedArray *array;
 
  public:
@@ -89,13 +89,13 @@ class ArrayFiller
             std::cout << "Caso 1: Static schedule sem chunks" << std::endl;
             if (mutex)
 #pragma omp parallel for schedule(static) num_threads(nThreads)
-               for (int i = 0; i < nTimes; ++i)
+               for (int i = 0; i < nTimes; i++)
                {
                   array->addChar('A' + omp_get_thread_num());
                }
             else
 #pragma omp parallel for schedule(static) num_threads(nThreads)
-               for (int i = 0; i < nTimes; ++i)
+               for (int i = 0; i < nTimes; i++)
                {
                   array->addCharSemCritical('A' + omp_get_thread_num());
                }
