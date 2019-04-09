@@ -25,6 +25,10 @@ o desbalanceamento entre iterações.[¹]
 
 **Auto:** É delegado ao compilador.
 
+Os casos Static, Dynamic e Guided foram executados com e sem chunks. 
+
+Todos os casos foram executados com e sem exclusão mútua. Analisando os resultados, percebemos que casos sem exclusão mútua são sucetíveis à erros.  
+
   ## Referências
 
 - [Intel](https://software.intel.com/en-us/articles/openmp-loop-scheduling)  
