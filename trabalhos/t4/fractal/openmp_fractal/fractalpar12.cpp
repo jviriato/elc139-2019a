@@ -9,7 +9,7 @@ static const double yMid =  0.521;
 
 int main(int argc, char *argv[])
 {
-  printf("Fractal v1.6 [Paralelo 1]\n");
+  printf("Fractal v1.6 [Paralelo 2]\n");
 
   // check command line
   if (argc != 5) {fprintf(stderr, "usage: %s [frame_width] [num_frames] [1 or 0 to write] [num of threads] \n", argv[0]); exit(-1);}
