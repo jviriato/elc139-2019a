@@ -9,7 +9,7 @@
 
 [fractalpar2.cpp](fractal/openmp_fractal/fractalpar2.cpp)
 
-[Slides](#)
+[Slides](t4paralela.pdf)
 
 |     Tipo    | Tamanho | Frames |   Tempo  | Threads | Speedup |
 |:-----------:|:-------:|:------:|:--------:|:-------:|:-------:|
