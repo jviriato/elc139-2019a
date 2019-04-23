@@ -34,3 +34,8 @@
 |  Paralelo 2 |   2048  |   32   |  100.37s |    2    |    1.74     |
 |  Paralelo 2 |   2048  |   32   |  63.84s  |    4    |    2.74     |
 |  Paralelo 2 |   2058  |   32   |  65.29s  |    8    |    2.68     |
+
+  ## Referências
+
+- [RookieHPC](https://rookiehpc.com/openmp/docs/)  
+  Documentação do OpenMP.
