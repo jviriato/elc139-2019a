@@ -6,6 +6,7 @@
 **Disciplina**: Programação Paralela
 
 **Specs**:
+
 Sistema Operacional: Ubuntu 18.04
 
 Memória RAM: 8GB
@@ -16,4 +17,6 @@ Frequência: 2.20GHz
 
 Núcleos: 2
 
+## Parte 2
 
+[mpi_pipeline.cpp](mpi_pipeline.cpp)
