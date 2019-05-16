@@ -29,7 +29,7 @@ Enquanto *MPI_Bcast* envia o mesmo dado para todos, o *MPI_Scatter* envia um ped
 
 ![3](exemplo.png)
 
-[matrix_mult_sr_fixed.c](matrix_mult_sr_fixed.c)
+**Código**: [matrix_mult_sr_fixed.c](matrix_mult_sr_fixed.c)
 
 
 ## Parte 2
@@ -37,5 +37,7 @@ Enquanto *MPI_Bcast* envia o mesmo dado para todos, o *MPI_Scatter* envia um ped
 
 ## Referências
 [1] [MPI_Bcast](https://www.mpich.org/static/docs/v3.2/www3/MPI_Bcast.html)
+
 [2] [MPI_Scatter](https://www.mpich.org/static/docs/v3.1/www3/MPI_Scatter.html)
+
 [3] [MPI Scatter, Gather, and Allgather](https://mpitutorial.com/tutorials/mpi-scatter-gather-and-allgather/zh_cn/)
