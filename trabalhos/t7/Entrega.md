@@ -24,6 +24,7 @@ O gráfico pode ser conferido à seguir:
 ![Parte 1](parte1.png)
 
 Em host speed foi utilizado segundo o meu processador, na tabela fornecida pelos slides
+[Código](mybcast.c)
 
 ## Parte 2
 
