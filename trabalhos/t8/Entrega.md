@@ -6,7 +6,8 @@
 **Disciplina**: Programação Paralela
 
 **Specs**
-Tesla T4
+
+GPU: Tesla T4
 
 ## Parte 1
 
